@@ -49,13 +49,8 @@ nav span {
 /* Header end */
 
 /*Content Format */
-div {
-  border: 1px solid black;
-}
-
 .content {
   display: flex;
-  border: 1px solid black;
   position: relative;
   top: 120px;
   width: 1232px;
@@ -82,4 +77,54 @@ div {
   width: 240px;
 }
 
+.story {
+  width: 290px;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 /* Background Images */
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  height: 300px;
+  background: url(../images/imgdrink.png);
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.main.image-content {
+  font-size: 40px;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.camera {
+  background: url(../images/imgcamera.png);
+}
+
+.fall {
+  background: url(../images/imgfall.png);
+}
+
+.cat {
+  background: url(../images/imgcat.png);
+}
+
+/* Content Text Styles */
+.narrative {
+  font-family: Georgia;
+  font-size: 17px
+  color: black;
+}
