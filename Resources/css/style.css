@@ -88,6 +88,29 @@ nav span {
   justify-content: space-between;
   margin-top: 20px;
 }
+
+.bites.title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.bite {
+  padding: 11px 20px;
+  background-color: whitesmoke;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.bites {
+  display: flex;
+  flex-direction: column;
+
+}
 /* Background Images */
 .image-content {
   display: flex;
@@ -127,4 +150,8 @@ nav span {
   font-family: Georgia;
   font-size: 17px
   color: black;
+}
+
+footer {
+  
 }
