@@ -47,3 +47,39 @@ nav span {
   color: MediumAquamarine;
 }
 /* Header end */
+
+/*Content Format */
+div {
+  border: 1px solid black;
+}
+
+.content {
+  display: flex;
+  border: 1px solid black;
+  position: relative;
+  top: 120px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  margin-right: 32px
+}
+
+.column.large {
+  width: 630px;
+  margin-right: 32px
+}
+
+.column.medium {
+  width: 300px;
+  margin-right: 32px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+/* Background Images */
